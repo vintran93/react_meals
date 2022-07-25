@@ -38,13 +38,13 @@ class CategoriesContainer extends Component {
         })
 
         return (
-        <div>
-            <h2>The Meal Categories</h2>
-            {categories}
-            <hr/>
-            {this.state.category !== "" ? <h3>The {this.state.category} Meals:</h3> : ''}
-            <MealsContainer category={this.state.category}/>
-        </div>
+            <div>
+                <h2>The Meal Categories</h2>
+                {categories}
+                <hr/>
+                {this.state.category !== "" ? <h3>The {this.state.category} Meals:</h3> : ''}
+                <MealsContainer category={this.state.category}/>
+            </div>
         )
     }
 }

@@ -32,7 +32,7 @@ class MealsContainer extends Component {
         return (
             <div>
                 {/* <h3>I am a meal container</h3> */}
-                {this.props.category !== '' ? meals : <h3>Please select a category.</h3>}
+                {this.props.category !== '' ? meals : <h3>Please select a category. </h3>}
             </div>
         
         )
